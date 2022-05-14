@@ -4,6 +4,11 @@
 --accent-color: rgba(33, 150, 243, 1);
 --white-text-color: rgba(255, 255, 255, 1);
 --contacts-text-color: rgba(255, 255, 255, 0.6);
+
+--primary-bg-color: #E5E5E5;
+--dark-bg-collor: rgba(47, 48, 58, 1);
+--section-bg-color: rgba(245, 244, 250, 1);
+
 }
 
 
@@ -12,7 +17,7 @@
 
 
 body {
-    background-color: #E5E5E5;;
+    background-color: var(--primary-bg-color);
     color: var(--text-color)
 }
 
@@ -28,5 +33,30 @@ body {
     color: var(--accent-color);
 }
 
+.button {
+    color:var(--white-text-color);
+    background-color: var(--accent-color);
+    
+}
+
+.button.primary {
+    color: var(--white-text-color);
+    background-color: var(--accent-color)
+
+}
+.button.primary:hover, .button.primary:focus {
+    color: var(--title-text-color); 
+    background-color: var(--primary-bg-color);
+
+}
+
+.button.secondary {
+    color: var(--title-text-color); 
+    background-color: var(--primary-bg-color);
+}
+.button.secondary:hover .button.secondary:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color)
+}
 
 
