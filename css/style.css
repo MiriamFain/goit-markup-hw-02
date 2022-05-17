@@ -5,9 +5,9 @@
 --white-text-color: rgba(255, 255, 255, 1);
 --contacts-text-color: rgba(255, 255, 255, 0.6);
 
---primary-bg-color: #E5E5E5;
+--primary-bg-color: rgba(245, 244, 250, 1);
 --dark-bg-color: rgba(47, 48, 58, 1);
---section-bg-color: rgba(245, 244, 250, 1);
+--section-bg-color: #E5E5E5;
 
 }
 
@@ -23,6 +23,9 @@ body {
 
 .logo {
     color: var(--accent-color);
+}
+.logo span {
+    color: var(--title-text-color)
 }
 
 .site-nav {
@@ -56,7 +59,12 @@ body {
 }
 .button.secondary:hover .button.secondary:focus {
     color: var(--white-text-color);
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
+}
+
+
+.footer-logo span {
+    color: var(--white-text-color);
 }
 
 
