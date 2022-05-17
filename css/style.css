@@ -52,7 +52,7 @@ body {
     color: var(--accent-color);
 }
 
-.header-contact {
+.header-contact-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -62,8 +62,8 @@ body {
     color: var(--text-color);
 }
 
-.header-contact:hover,
-.header-contact:focus {
+.header-contact-link:hover,
+.header-contact-link:focus {
     color: var(--accent-color);
 }
 
