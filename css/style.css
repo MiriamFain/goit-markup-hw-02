@@ -29,7 +29,9 @@ body {
     background-color: var(--dark-bg-color);
 }
 
-.features {
+.features,
+.portfolio,
+.gallery {
     background-color: var(--section-bg-color);
 }
 
@@ -191,6 +193,7 @@ a {
 
 .footer-address {
     font-family: 'Roboto';
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
