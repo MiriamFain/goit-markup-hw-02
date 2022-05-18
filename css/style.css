@@ -22,7 +22,6 @@ body {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1, 42;
@@ -40,7 +39,6 @@ body {
 .site-nav .link {
     color: var(--title-text-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -54,7 +52,6 @@ body {
 
 .header-contact-link {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -73,7 +70,6 @@ a {
 .hero-title {
     font-family: 'Roboto';
     font-weight: 900;
-    font-style: normal;
     font-size: 44px;
     line-height: 1, 36;
     text-align: center;
@@ -86,7 +82,6 @@ a {
     color: var(--white-text-color);
     background-color: var(--accent-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -125,7 +120,6 @@ a {
 
 .features {
     font-family: 'Roboto';
-    font-style: normal;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
@@ -144,7 +138,6 @@ a {
 
 .work-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1, 16;
@@ -155,7 +148,6 @@ a {
 
 .team-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1, 16;
@@ -166,7 +158,6 @@ a {
 
 .team {
     font-family: 'Roboto';
-    font-style: normal;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -179,14 +170,11 @@ a {
 }
 
 .team-position {
-    font-weight: 400;
     color: var(--text-color);
 }
 
 .footer-address {
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -212,7 +200,6 @@ a {
 
 .image-title {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
