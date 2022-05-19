@@ -10,6 +10,19 @@
     --section-bg-color: #e5e5e5;
 }
 
+алекс21: 23 .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 ul {
     list-style: none;
 }
@@ -36,7 +49,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-
+.current {
+    color: var(--accent-color);
+}
 .logo-accent {
     color: var(--title-text-color);
 }
@@ -105,8 +120,7 @@ a {
 
 .button.primary:hover,
 .button.primary:focus {
-    color: var(--title-text-color);
-    background-color: var(--primary-bg-color);
+    background-color: rgba(24, 140, 232, 1);
 }
 
 .button.secondary {
@@ -129,7 +143,6 @@ a {
 }
 
 .features-title {
-    font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
@@ -140,17 +153,8 @@ a {
     color: var(--text-color);
 }
 
-.work-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1, 16;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
-
+.work-title,
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1, 16;
     text-align: center;
@@ -159,7 +163,6 @@ a {
 }
 
 .team {
-    font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -201,7 +204,6 @@ a {
 }
 
 .image-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
