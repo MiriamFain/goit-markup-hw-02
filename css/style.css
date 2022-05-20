@@ -10,7 +10,7 @@
     --section-bg-color: #e5e5e5;
 }
 
-алекс21: 23 .visually-hidden {
+.visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -49,9 +49,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
-.current {
-    color: var(--accent-color);
-}
+
 .logo-accent {
     color: var(--title-text-color);
 }
@@ -72,6 +70,9 @@ body {
     color: var(--accent-color);
 }
 
+.header .current {
+    color: var(--accent-color);
+}
 .header-contact-link {
     font-weight: 500;
     font-size: 14px;
@@ -131,6 +132,7 @@ a {
     letter-spacing: 0.03em;
 }
 
+.button-list .current,
 .button.secondary:hover,
 .button.secondary:focus {
     color: var(--first-contrast-text-color);
@@ -143,6 +145,7 @@ a {
 }
 
 .features-title {
+    font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--title-text-color);
